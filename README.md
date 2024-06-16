@@ -1,8 +1,10 @@
 <p align="center">
     <img src="https://i.imgur.com/CgpwyIQ.png" width="190" height="200" >
 </p>
-
-An open source implementation of the Ultima Online Classic Client.
+ALTERNATIVE FORK OF CLASSIC UO.
+What is UO-Xtended?
+UoExpanded are two diferent projects of UO. One emulator (sphere-Xtended bases on sphere-x) and one Client (CUO-extended). Both moded to expand all uo features.
+As Im finding many bugs on CUO it is probably this fork gets stuck until bugs are fixed. So first goal is to fix bugs.
 
 Individuals/hobbyists: support continued maintenance and development via the monthly Patreon:
 <br>&nbsp;&nbsp;[![Patreon](https://raw.githubusercontent.com/wiki/ocornut/imgui/web/patreon_02.png)](http://www.patreon.com/classicuo)
@@ -41,29 +43,6 @@ ClassicUO is natively cross platform and supports:
 
 Or visit the [ClassicUO Website](https://www.classicuo.eu/)
 
-# How to generate a release build
-```
-git clone --recursive https://github.com/ClassicUO/ClassicUO.git
-cd ClassicUO/scripts
-bash build-naot.sh
-```
-Binaries available in `bin/dist` folder
-> [!WARNING] 
-> To execute .sh scripts on Windows, use Git Bash which can be installed with Git itself: https://git-scm.com/download/win
-
-# Contribute
-Everyone is welcome to contribute! The GitHub issues and project tracker are kept up to date with tasks that need work.
-
-# Legal
-The code itself has been written using the following projects as a reference:
-
-* [OrionUO](https://github.com/hotride/orionuo)
-* [Razor](https://github.com/msturgill/razor)
-* [UltimaXNA](https://github.com/ZaneDubya/UltimaXNA)
-* [ServUO](https://github.com/servuo/servuo)
-
-Backend:
-* [FNA](https://github.com/FNA-XNA/FNA)
 
 This work is released under the BSD 4 license. This project does not distribute any copyrighted game assets. In order to run this client you'll need to legally obtain a copy of the Ultima Online Classic Client.
 Using a custom client to connect to official UO servers is strictly forbidden. We do not assume any responsibility of the usage of this client.
